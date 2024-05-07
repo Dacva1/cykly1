@@ -11,5 +11,6 @@ Module Program
             pocet = pocet + 1
             Console.WriteLine($"Zadané èíslo je: {cislo}")
         Loop While pocet < 10
+
     End Sub
 End Module
