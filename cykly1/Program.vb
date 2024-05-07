@@ -8,7 +8,7 @@ Module Program
         Console.WriteLine("Zadej èíslo:")
         cislo = Console.ReadLine
 
-        For x = 1 To cislo
+        For x = 0 To cislo Step 1 + Math.Sign(cislo)
             soucet = soucet + x
         Next
 
